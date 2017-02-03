@@ -1,6 +1,7 @@
 # Difference between userdebug user and eng
-'''
-# Build files and then package it into the rom formats
+
+'''Makefile
+//Build files and then package it into the rom formats
 .PHONY: droidcore
 droidcore: files \
     systemimage \
